@@ -1,6 +1,6 @@
 
 /*
-Copyright Okimi 2015-2017 (contact at okimi dot net)
+Copyright Okimi 2015-2018 (contact at okimi dot net)
 
 Ce logiciel est un programme informatique servant à compiler un fichier
 Blockly4Thymio (.b4t), à le transfomer en fichier Aseba (.aesl) et le
@@ -36,7 +36,7 @@ termes.
 
 ===============================================================================
 
-Copyright Okimi 2015-2017 (contact at okimi dot net)
+Copyright Okimi 2015-2018 (contact at okimi dot net)
 
 This software is a computer program whose purpose is to compil Blockly4Thymio
 file (.b4t), to transform it into Aseba file (.aesl) and send it to Thymio
@@ -71,7 +71,7 @@ knowledge of the CeCILL license and that you accept its terms.
 
 
 
-using 	System;
+using System;
 using 	System.Collections.Generic;
 using 	System.Diagnostics;
 using	System.IO;
@@ -641,8 +641,12 @@ public class	Compilateur {
 			expression = new __Valeur(	_UIDPourLeBloc, _XMLDuBloc, _blocPrécédent, _groupeDeBlocs,
 										__CAPTEURS.code( (int)__CAPTEURS.NOM.ARRIÈRE_GAUCHE, (int)__CAPTEURS.PARAMÈTRE.DISTANCE_PRÈS ) );
 			break;
-
-		#endregion
+		case "0_7_Valeur_Booléen_Capteur_ArrièreAucun" :
+			expression = new __Valeur(	_UIDPourLeBloc, _XMLDuBloc, _blocPrécédent, _groupeDeBlocs,
+										__CAPTEURS.code( (int)__CAPTEURS.NOM.ARRIÈRE_AUCUN, (int)__CAPTEURS.PARAMÈTRE.DISTANCE_PRÈS ) );
+			break;
+		
+        #endregion
 
 
 		#region Capteur - Teinte du dessous

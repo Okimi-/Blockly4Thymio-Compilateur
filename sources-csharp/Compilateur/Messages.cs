@@ -1,6 +1,6 @@
 ﻿
 /*
-Copyright Okimi 2015-2017 (contact at okimi dot net)
+Copyright Okimi 2015-2018 (contact at okimi dot net)
 
 Ce logiciel est un programme informatique servant à compiler un fichier
 Blockly4Thymio (.b4t), à le transfomer en fichier Aseba (.aesl) et le
@@ -36,7 +36,7 @@ termes.
 
 ===============================================================================
 
-Copyright Okimi 2015-2017 (contact at okimi dot net)
+Copyright Okimi 2015-2018 (contact at okimi dot net)
 
 This software is a computer program whose purpose is to compil Blockly4Thymio
 file (.b4t), to transform it into Aseba file (.aesl) and send it to Thymio
@@ -69,7 +69,7 @@ The fact that you are presently reading this means that you have had
 knowledge of the CeCILL license and that you accept its terms.
 */
 
-using 	System;
+using System;
 using 	System.Globalization;
 
 
@@ -163,7 +163,7 @@ public class 	Messages {
 																				"* !!! DEBUG MODE !!! *\r\n" +
 																				"**********************\r\n";
 				#endif
-				texte +=														"Blockly4Thymio Compiler  - Okimi ©2015-2017 - version " + Compilateur.version + "\r\n" +
+				texte +=														"Blockly4Thymio Compiler  - Okimi ©2015-2018 - version " + Compilateur.version + "\r\n" +
 																				"\r\n" +
 																				"Compiles a .b4t file into an Aseba file and passes it to the Thymio II robot.\r\n" +
 																				"Blockly4Thymio uses the asebahttp program to transfer the Aseba file to the Thymio robot.\r\n" +
@@ -214,7 +214,7 @@ public class 	Messages {
 																				"* !!! MODE DEBUG !!! *\r\n" +
 																				"**********************\r\n";
 				#endif
-				texte +=														"Compilateur Blockly4Thymio - Okimi ©2015-2017 - version " + Compilateur.version + "\r\n" +
+				texte +=														"Compilateur Blockly4Thymio - Okimi ©2015-2018 - version " + Compilateur.version + "\r\n" +
 																				"\r\n" +
 																				"Compile un fichier .b4t en fichier Aseba et le transmet au robot Thymio II.\r\n" +
 																				"Blockly4Thymio utilise le programme asebahttp pour le transfert du fichier Aseba vers le robot Thymio.\r\n" +
