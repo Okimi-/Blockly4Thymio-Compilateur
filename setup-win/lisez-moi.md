@@ -14,4 +14,4 @@ Etapes
 * Corriger le numéro de version dans le fichier LISEZ-MOI.rtf,
 * Lancer la compilation du fichier setup.iss, depuis InnoSetup.
 
-Copyrigth Okimi 2015-2017 (contact at okimi dot net)
+Copyrigth Okimi 2015-2018 (contact at okimi dot net)

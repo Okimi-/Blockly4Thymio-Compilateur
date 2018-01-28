@@ -4,6 +4,6 @@ Interface hors ligne de programmation pour Blockly4Thymio. Basée sur la version
 
 Cette interface reprend celle utilisée sur les pages d'exercices du site www.blockly4thymio.net mais elle peu être utilisée sans connexion à internet.
 
-Version du compilateur : 1.2
+Version du compilateur : 1.3
 
-Blockly4Thymio - © 2015-2017 Okimi (contact at okimi dot net)
+Blockly4Thymio - © 2015-2018 Okimi (contact at okimi dot net)

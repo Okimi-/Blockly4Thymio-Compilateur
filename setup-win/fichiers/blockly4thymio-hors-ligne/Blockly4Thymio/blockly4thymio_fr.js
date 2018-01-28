@@ -946,7 +946,7 @@ Blockly.Blocks['0_2_Valeur_Booléen_Bouton_FlècheArrière'] = {
     this.setTooltip( 'Le bouton flèche arrière est appuyé.' ); 
     this.appendDummyInput()
         .appendField(new Blockly.FieldImage( "Blockly4Thymio/icones/icone-bouton-arriere.png", 24, 24, "" ))
-        .appendField( "le bouton flèche avrrière est appuyé" );
+        .appendField( "le bouton flèche arrière est appuyé" );
     this.setInputsInline( false );
     this.setOutput( true, "Boolean" );
   } 
