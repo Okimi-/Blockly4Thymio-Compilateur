@@ -10,7 +10,7 @@
     <RootNamespace>Blockly4Thymio</RootNamespace>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
-    <ReleaseVersion>1.2</ReleaseVersion>
+    <ReleaseVersion>1.3</ReleaseVersion>
     <Description>Compilateur du projet Blockly4Thymio.
 Transforme un fichiers .b4t en fichier .aesl puis le transmet à Thymio.</Description>
     <ApplicationIcon>blockly4thymio.ico</ApplicationIcon>
